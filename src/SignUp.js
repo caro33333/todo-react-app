@@ -66,11 +66,12 @@ class SignUp extends React.Component {
                             <TextField
                                 autoComplete="current-password"
                                 name="password"
-                                variant="outliend"
+                                variant="outlined"
                                 required
                                 fullWidth
                                 id="password"
                                 label="패스워드"
+                                type="password"
                                 autoFocus
                             />
                         </Grid>
@@ -85,7 +86,7 @@ class SignUp extends React.Component {
                             </Button>
                         </Grid>
                     </Grid>
-                    <Grid container justify="flex-end">
+                    <Grid container justifyContent="flex-end">
                         <Grid item>
                             <Link href="/login" variant="body2">
                                 이미 계정이 있습니까? 로그인 하세요.
